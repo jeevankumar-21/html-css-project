@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: #466385;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+header div {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+header div {
+  list-style-type: none;
+  gap: 70px;
+  font-size: 25px;
+}
+header div .hamburg {
+  display: none;
+}
+header div li:hover {
+  color: yellow;
+}
+header div li .dropdown:hover {
+  background-color: rgb(75, 97, 145);
+  width: 160px;
+  height: 150px;
+}
+header div li .dropdown:hover .hamburg {
+  display: flex;
+}
+header div li a {
+  text-decoration: none;
+  color: white;
+}
+header div li a:hover {
+  color: yellow;
+}/*# sourceMappingURL=home.css.map */
